@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.venv_new/
+.venv_py313/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.env.local
+
+# Database (don't push DB to GitHub)
+*.db
+*.db-shm
+*.db-wal
+
+# ML training data (large files)
+ml/training_data/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Misc
+.DS_Store
+*.log
+debug_output.txt
+check_db.py
